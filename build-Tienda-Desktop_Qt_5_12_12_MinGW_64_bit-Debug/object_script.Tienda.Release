@@ -1,0 +1,14 @@
+release/acerca.o
+release/clasefactura.o
+release/detallefactura.o
+release/factura.o
+release/main.o
+release/producto.o
+release/tienda.o
+release/qrc_Tienda.o
+release/moc_acerca.o
+release/moc_clasefactura.o
+release/moc_detallefactura.o
+release/moc_factura.o
+release/moc_producto.o
+release/moc_tienda.o

@@ -1,0 +1,14 @@
+debug/acerca.o
+debug/clasefactura.o
+debug/detallefactura.o
+debug/factura.o
+debug/main.o
+debug/producto.o
+debug/tienda.o
+debug/qrc_Tienda.o
+debug/moc_acerca.o
+debug/moc_clasefactura.o
+debug/moc_detallefactura.o
+debug/moc_factura.o
+debug/moc_producto.o
+debug/moc_tienda.o

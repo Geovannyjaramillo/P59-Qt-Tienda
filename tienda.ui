@@ -6,12 +6,25 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>552</height>
+    <width>743</width>
+    <height>570</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Rockwell Nova</family>
+    <pointsize>10</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Tienda</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Tienda.qrc">
+    <normaloff>:/Recursos/img/tiendas.png</normaloff>:/Recursos/img/tiendas.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(254, 255, 196);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -32,52 +45,109 @@
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="QGroupBox" name="groupBox">
+         <property name="font">
+          <font>
+           <family>Rockwell Nova</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(213, 255, 174);</string>
+         </property>
          <property name="title">
           <string>Cliente</string>
          </property>
          <layout class="QFormLayout" name="formLayout">
           <item row="0" column="0">
            <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Cédula:</string>
             </property>
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLineEdit" name="inCedula"/>
+           <widget class="QLineEdit" name="inCedula">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Nombre:</string>
             </property>
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLineEdit" name="inNombre"/>
+           <widget class="QLineEdit" name="inNombre">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+           </widget>
           </item>
           <item row="4" column="0">
            <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Teléfono:</string>
             </property>
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QLineEdit" name="inTelefono"/>
+           <widget class="QLineEdit" name="inTelefono">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+           </widget>
           </item>
           <item row="6" column="0">
            <widget class="QLabel" name="label_4">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>E-mail:</string>
             </property>
            </widget>
           </item>
           <item row="6" column="1">
-           <widget class="QLineEdit" name="inEmail"/>
+           <widget class="QLineEdit" name="inEmail">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+           </widget>
           </item>
           <item row="8" column="0">
            <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Dirección:</string>
             </property>
@@ -85,6 +155,9 @@
           </item>
           <item row="8" column="1">
            <widget class="QPlainTextEdit" name="inDireccion">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
             <property name="lineWidth">
              <number>3</number>
             </property>
@@ -95,12 +168,29 @@
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox_2">
+         <property name="font">
+          <font>
+           <family>Rockwell Nova</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(213, 255, 174);</string>
+         </property>
          <property name="title">
           <string>Producto</string>
          </property>
          <layout class="QFormLayout" name="formLayout_2">
           <item row="0" column="0">
            <widget class="QLabel" name="label_6">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Nombre:</string>
             </property>
@@ -109,31 +199,56 @@
           <item row="0" column="1">
            <widget class="QComboBox" name="inProducto"/>
           </item>
-          <item row="2" column="0">
+          <item row="1" column="0">
            <widget class="QLabel" name="label_7">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Cantidad:</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
-           <widget class="QSpinBox" name="inCantidad"/>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="inCantidad">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
-          <item row="4" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Precio:</string>
             </property>
            </widget>
           </item>
-          <item row="4" column="1">
+          <item row="2" column="1">
            <widget class="QLabel" name="outPrecio">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>0.00</string>
             </property>
            </widget>
           </item>
-          <item row="7" column="1">
+          <item row="3" column="1">
            <widget class="QPushButton" name="btnAgregar">
             <property name="minimumSize">
              <size>
@@ -141,11 +256,40 @@
               <height>50</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(143, 240, 164);</string>
+             <string notr="true">background-color: rgb(143, 240, 164);
+background-color: rgb(212, 212, 212);</string>
             </property>
             <property name="text">
              <string>Agregar</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="btnFacturar">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(212, 212, 212);</string>
+            </property>
+            <property name="text">
+             <string>Factura</string>
             </property>
            </widget>
           </item>
@@ -160,12 +304,24 @@
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <widget class="QGroupBox" name="groupBox_3">
+         <property name="font">
+          <font>
+           <family>Rockwell Nova</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="title">
           <string>Detalle de la compra</string>
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <widget class="QTableWidget" name="outDetalle"/>
+           <widget class="QTableWidget" name="outDetalle">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -239,6 +395,7 @@
               <widget class="QLabel" name="label_12">
                <property name="font">
                 <font>
+                 <family>Rockwell Nova</family>
                  <pointsize>14</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
@@ -292,13 +449,77 @@ color: rgb(224, 27, 36);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>22</height>
+     <width>743</width>
+     <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="actionCalcular"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca_de">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAcerca_de_la_tienda"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuAcerca_de"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNuevo">
+   <property name="icon">
+    <iconset resource="Tienda.qrc">
+     <normaloff>:/Recursos/img/registro.png</normaloff>:/Recursos/img/registro.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionCalcular">
+   <property name="icon">
+    <iconset resource="Tienda.qrc">
+     <normaloff>:/Recursos/img/contabilidad.png</normaloff>:/Recursos/img/contabilidad.png</iconset>
+   </property>
+   <property name="text">
+    <string>Calcular</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="Tienda.qrc">
+     <normaloff>:/Recursos/img/cerrar-sesion.png</normaloff>:/Recursos/img/cerrar-sesion.png</iconset>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de_la_tienda">
+   <property name="icon">
+    <iconset resource="Tienda.qrc">
+     <normaloff>:/Recursos/img/acercade.png</normaloff>:/Recursos/img/acercade.png</iconset>
+   </property>
+   <property name="text">
+    <string>Acerca de </string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="Tienda.qrc">
+     <normaloff>:/Recursos/img/guardar-el-archivo.png</normaloff>:/Recursos/img/guardar-el-archivo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="Tienda.qrc"/>
+ </resources>
  <connections/>
 </ui>
